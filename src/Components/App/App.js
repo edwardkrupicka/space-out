@@ -1,7 +1,23 @@
-import logo from '../../svg/logo.svg';
 import './App.scss';
+import React, { useEffect } from 'react';
+import logo from '../../svg/logo.svg';
 
-function App() {
+const App = () => {
+
+  useEffect(() => {
+  fetchData('https://api.spaceflightnewsapi.net/v3/articles')
+  }, [])
+
+  const fetchData = async ( api ) => {
+    try {
+      const res = await fetch( api )
+      const resJson = await res.json()
+      console.log(resJson)
+    } catch(err) {
+      console.log(err.stack)
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
