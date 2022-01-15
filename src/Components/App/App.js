@@ -1,6 +1,8 @@
 import './App.scss';
 import React, { useState, useEffect } from 'react';
+import { fetchData } from '../api/api';
 import logo from '../../svg/logo.svg';
+import Home from '../Home/Home';
 
 const App = () => {
   const [articles, setArticles] = useState([]);
@@ -11,26 +13,19 @@ const App = () => {
   fetchData( 'https://api.spaceflightnewsapi.net/v3/articles', setArticles )
   fetchData( 'https://api.spaceflightnewsapi.net/v3/blogs', setBlogs )
   fetchData( 'https://api.spaceflightnewsapi.net/v3/reports', setReports )
-  }, [])
+  }, []);
 
-  const fetchData = async ( api, setState ) => {
-    try {
-      const res = await fetch( api )
-      const resJson = await res.json()
-      setState( resJson )
-    } 
-    catch( err ) {
-      console.log( err )
-    }
+  let data = {
+    articles: articles,
+    blogs: blogs,
+    reports: reports
   }
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={ logo } className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Home data={ data } />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -42,6 +37,6 @@ const App = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
