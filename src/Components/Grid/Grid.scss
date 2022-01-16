@@ -1,0 +1,9 @@
+.grid {
+	display: grid;
+	justify-content: center;
+}
+
+.grid.favorites{
+	width: 100%;
+	grid-template-columns: repeat(4, 200px);
+}

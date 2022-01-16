@@ -1,8 +1,9 @@
-import './App.scss';
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, NavLink } from 'react-router-dom';
 import { fetchData } from '../api/api';
-import logo from '../../svg/logo.svg';
+import './App.scss';
 import Home from '../Home/Home';
+import Nav from '../Nav/Nav';
 
 const App = () => {
   const [articles, setArticles] = useState([]);
@@ -23,18 +24,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={ logo } className="App-logo" alt="logo" />
-        <Home data={ data } />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+        <Routes>
+          <Route path='/' element={ <Home data={ data } /> } />
+        </Routes>
     </div>
   );
 };
