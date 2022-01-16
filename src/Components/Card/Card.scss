@@ -1,0 +1,31 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 230px;
+  height: 340px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 10px, 10px, 10px;
+  background-color: rgb(16, 16, 16);
+  padding: 11px;
+  transition: ease 0.3s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-img {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .card-title {
+    height: 50%;
+    font-size: 20px;
+  }
+}
