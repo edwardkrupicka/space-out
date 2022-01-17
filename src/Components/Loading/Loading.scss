@@ -1,0 +1,11 @@
+.loading {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+	margin: 100px 0px 0px;
+
+	.loading-message {
+		height: 100px;
+	}
+}
