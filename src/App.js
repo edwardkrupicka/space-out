@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
-import { fetchAllData } from '../api/api';
+import { fetchAllData } from './services/api/api';
 import './App.scss';
-import Nav from '../Nav/Nav';
-import Loading from '../Loading/Loading';
-import Home from '../Home/Home';
+import Nav from './parts/Nav/Nav';
+import Loading from './services/Loading/Loading';
+import Home from '../components/pages/Home/Home';
 
 const App = () => {
+  const [data, setData] = useState({ articles: [], blogs: [], reports: [] });
   const [loading, setLoading] = useState(true)
-  
-  const [data, setData] = useState({
-    articles: [],
-    blogs: [],
-    reports: []
-  });
 
   useEffect(() => {
     fetchAllData(setData, setLoading)
