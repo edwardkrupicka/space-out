@@ -1,5 +1,5 @@
 import './Home.scss';
-import Grid from '../Grid/Grid';
+import Grid from '../../Grid/Grid';
 import React, { useEffect, useState } from 'react';
 
 const Home = ({ data }) => {
