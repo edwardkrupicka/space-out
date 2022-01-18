@@ -9,6 +9,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Roboto', sans-serif;
+  background: rgb(32, 32, 58);
+  background: linear-gradient(153deg, rgb(30, 30, 43) 0%, rgb(45, 52, 87) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (prefers-reduced-motion: no-preference) {
