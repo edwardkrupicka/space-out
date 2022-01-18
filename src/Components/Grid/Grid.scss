@@ -1,9 +1,17 @@
 .grid {
 	display: grid;
 	justify-content: center;
+	margin: 50px 0px 0px
 }
 
-.grid.favorites{
+.grid.home {
 	width: 100%;
-	grid-template-columns: repeat(4, 200px);
+	grid-template-columns: repeat(2, 300px);
+	grid-gap: 30px;
+}
+
+.grid.favorites {
+	width: 100%;
+	grid-template-columns: repeat(auto, 250px);
+	grid-gap: 30px;
 }

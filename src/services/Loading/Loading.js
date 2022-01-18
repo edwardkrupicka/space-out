@@ -1,8 +1,6 @@
 import './Loading.scss'
 
-const Loading = ({ loading }) => {
-
-	console.log(loading)
+const Loading = () => {
 
 	return (
 		<section className='loading'>
