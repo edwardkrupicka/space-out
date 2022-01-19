@@ -1,5 +1,5 @@
 import './Favorites.scss';
-import Grid from '../../assets/components/Grid/Grid';
+import Grid from '../../components/Grid/Grid';
 
 const Favorites = ({ favorites, handleSubClick, handleFavClick, subscriptions }) => {
 

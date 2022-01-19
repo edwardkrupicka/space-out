@@ -1,5 +1,5 @@
 import './Subscriptions.scss';
-import Grid from '../../assets/components/Grid/Grid';
+import Grid from '../../components/Grid/Grid';
 import { useLocation } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
