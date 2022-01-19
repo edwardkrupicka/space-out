@@ -4,6 +4,7 @@
 	height: 50px;
 	display: flex;
 	flex-direction: row;
+	align-content: space-between;
 	background-color: rgb(0, 0, 0);
 	width: 100%;
 }
@@ -12,9 +13,19 @@
 font-family: 'Sonsie One', cursive;font-style: normal;
 font-weight: normal;
 font-size: 40px;
-width: 50%;
+text-align: start;
 color: lightgrey;
+margin-left: 20px;
 }
+
+.space-out:focus {
+	color: red;
+	}
+
+	.header-link {
+		width: 74%;
+		text-decoration: none;
+		}
 
 .nav-link {
 	color: lightgrey;
@@ -22,13 +33,16 @@ color: lightgrey;
 	margin: 15px 10px 0px;
 	font-size: 20px;
 	font-weight: 600;
-	transition: 0.5s ease;
+	transition: 0.3s ease;
+	height: 60%;
 }
 
 .nav-link:hover {
 	color: rgb(255, 162, 0);
+	border-bottom: 4px solid orange;
 }
 
 .nav-link.active{
 	color: rgb(255, 162, 0);
+	border-bottom: 2px solid orange;
 }

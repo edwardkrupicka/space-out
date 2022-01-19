@@ -1,6 +1,7 @@
 import './Card.scss';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const Card = ({ element, styleOverrideClass, handleSubClick, handleFavClick, subscriptions }) => {
   const [cardState, setCardState] = useState(element)
@@ -23,3 +24,12 @@ const Card = ({ element, styleOverrideClass, handleSubClick, handleFavClick, sub
 }
 
 export default Card;
+
+Card.propTypes = {
+  data: PropTypes.array,
+  element: PropTypes.object,
+  styleOverrideClass: PropTypes.string,
+  handleSubClick: PropTypes.func,
+  handleFavClick: PropTypes.func,
+  subscriptions: PropTypes.object
+};
