@@ -5,14 +5,15 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 300px;
-  height: 500px;
   overflow: hidden;
   box-sizing: border-box;
   margin: 10px, 10px, 10px;
   background-color: rgb(16, 16, 16);
   padding: 11px;
   transition: ease 0.3s;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
 
   &:hover {
     transform: scale(1.03);
@@ -37,8 +38,37 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 250px;
-  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 10px, 10px, 10px;
+  background-color: rgb(16, 16, 16);
+  padding: 11px;
+  transition: ease 0.3s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-img {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .card-title {
+    height: 50%;
+    font-size: 20px;
+  }
+
+}
+
+.card.subscriptions {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   overflow: hidden;
   box-sizing: border-box;
   margin: 10px, 10px, 10px;
@@ -68,5 +98,13 @@
 }
 
 .favorited.inactive {
+  background-color: white;
+}
+
+.subscribed.active {
+  background-color: chartreuse;
+}
+
+.subscribed.inactive {
   background-color: white;
 }

@@ -14,6 +14,7 @@ const reduceToObj = (data, type) => {
 		if(!obj[parseInt(element.id)]) {
 			element['type'] = type
 			element['favorited'] = false
+			element['subscribed'] = false
 			obj[parseInt(element.id)] = element
 		}
 		return obj
@@ -27,7 +28,7 @@ const fetchAllData = async (setData, setLoading) => {
 
 	reduceToObj(articles)
 
-	await setData({  articles: reduceToObj(articles, 'articles'), blogs: reduceToObj(blogs, 'blogs'), reports: reduceToObj(reports, 'reports')  })
+	await setData({  articles: reduceToObj(articles, 'articles'), blogs: reduceToObj(blogs, 'blogs'), reports: reduceToObj(reports, 'reports') })
 	setLoading(false)
 }
 

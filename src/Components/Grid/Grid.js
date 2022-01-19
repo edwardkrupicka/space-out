@@ -1,20 +1,15 @@
 import './Grid.scss';
 import Card from '../Card/Card';
 
-const Grid = ({ data, setData, favorites, setFavorites, styleOverrideClass}) => {
-  let articleArr = []
-  for (const property in data.articles) {
-    articleArr.push(data.articles[property])
-  }
+const Grid = ({ data, handleSubClick, handleFavClick, styleOverrideClass }) => {
   
-  let cards = articleArr.map(element => {
+  let cards = data.map(element => {
     return <Card
+      handleFavClick={handleFavClick}
+      handleSubClick={handleSubClick}
       data={data}
-      favorites={favorites}
       key={element.id}
       element={element}
-      setData={setData}
-      setFavorites={setFavorites}
       styleOverrideClass={styleOverrideClass}
     />
   })
