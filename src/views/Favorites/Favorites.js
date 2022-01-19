@@ -1,5 +1,6 @@
 import './Favorites.scss';
 import Grid from '../../components/Grid/Grid';
+import PropTypes from 'prop-types';
 
 const Favorites = ({ favorites, handleSubClick, handleFavClick, subscriptions }) => {
 
@@ -19,3 +20,10 @@ const Favorites = ({ favorites, handleSubClick, handleFavClick, subscriptions })
 }
 
 export default Favorites;
+
+Favorites.propTypes = {
+  favorites: PropTypes.object,
+  handleSubClick: PropTypes.func,
+  handleFavClick: PropTypes.func,
+  subscriptions: PropTypes.object
+};

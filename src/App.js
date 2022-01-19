@@ -67,7 +67,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={ <Home data={data} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
           <Route path='/favorites' element={ <Favorites favorites={favorites} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
-          <Route path='/subscriptions/*' element={ <Subscriptions data={data} subscriptions={subscriptions} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> }/>
+          <Route path='/subscriptions/*' element={ <Subscriptions data={data} subscriptions={subscriptions} handleSubClick={handleSubClick} handleFavClick={handleFavClick} /> }/>
         </Routes>
     </div>
   );

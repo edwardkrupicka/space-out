@@ -1,0 +1,17 @@
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100%;
+  margin: 100px 0px 0px;
+}
+
+.loading .loading-message {
+  height: 100px;
+}
+/*# sourceMappingURL=Loading.css.map */

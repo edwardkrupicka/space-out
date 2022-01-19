@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,uEAAI;AAEZ,AAAA,oBAAoB,CAAC;EACpB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACnB;;AAED,AAAA,iBAAiB,CAAC;EACjB,WAAW,EAAE,qBAAqB;EAAC,UAAU,EAAE,MAAM;EACrD,MAAM,EAAE,mBAAmB;EAC3B,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,SAAS;EAChB,MAAM,EAAE,aAAa;EACrB,OAAO,EAAE,IAAI;CACb",
+    "sources": [
+        "Favorites.scss"
+    ],
+    "names": [],
+    "file": "Favorites.css"
+}

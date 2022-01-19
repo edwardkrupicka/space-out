@@ -1,6 +1,6 @@
 import './Home.scss';
 import Grid from '../../components/Grid/Grid';
-import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Home = ({ data, handleSubClick, handleFavClick, subscriptions }) => {
 	let dataArr = []
@@ -18,3 +18,10 @@ const Home = ({ data, handleSubClick, handleFavClick, subscriptions }) => {
 }
 
 export default Home;
+
+Home.propTypes = {
+  data: PropTypes.object,
+  handleSubClick: PropTypes.func,
+  handleFavClick: PropTypes.func,
+  subscriptions: PropTypes.object
+};
