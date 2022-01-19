@@ -1,8 +1,10 @@
 import './Grid.scss';
 import Card from '../Card/Card';
 
-const Grid = ({ data, handleSubClick, handleFavClick, styleOverrideClass }) => {
-  
+const Grid = ({ data, handleSubClick, handleFavClick, styleOverrideClass, subscriptions }) => {
+
+  console.log(data)
+
   let cards = data.map(element => {
     return <Card
       handleFavClick={handleFavClick}
@@ -11,6 +13,7 @@ const Grid = ({ data, handleSubClick, handleFavClick, styleOverrideClass }) => {
       key={element.id}
       element={element}
       styleOverrideClass={styleOverrideClass}
+      subscriptions={subscriptions}
     />
   })
 

@@ -2,17 +2,23 @@ import './Card.scss';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = ({ element, styleOverrideClass, handleSubClick, handleFavClick }) => {
+const Card = ({ element, styleOverrideClass, handleSubClick, handleFavClick, subscriptions }) => {
   const [cardState, setCardState] = useState(element)
 
   return (
-    <article className={`card ${styleOverrideClass}`} key={cardState.id} >
-      <img className='card-img' src={element.imageUrl} alt={cardState.title} id={cardState.id}/>
-			<button onClick={() => window.open(element.url)}>Link</button>
-			<button className={cardState.favorited ? 'favorited active' : 'favorited inactive'} onClick={() => handleFavClick( cardState )} >Favorite</button>
-			<button className={cardState.subscribed ? 'subscribed active' : 'subscribed inactive'} onClick={() => handleSubClick( cardState )} >Subscribed</button>
-			<h1 className='card-title' >{cardState.title}</h1>
-    </article>
+    <div className='card' style={{ backgroundImage: `url(${element.imageUrl})` }} >
+          <article className={`content ${styleOverrideClass}`} key={cardState.id} >
+              <h2 className='newsSite' >{cardState.newsSite}</h2>
+              <h2 className='title' >{cardState.title}</h2>
+              <p className='summary'>{cardState.summary}</p>
+              <button className='btn' onClick={() => window.open(element.url)}>link to {cardState.type.substring(0, cardState.type.length - 1)}</button>
+              <p className='published'>{cardState.published}</p>
+              <div className='btn-container'>
+                <button className={cardState.favorited ? 'btn active' : 'btn inactive'} onClick={() => handleFavClick( cardState )} >{cardState.favorited ? 'unfavorite' : 'favorite'}</button>
+                <button className={subscriptions[cardState.newsSite] ? 'btn active' : 'btn inactive'} onClick={() => handleSubClick( cardState )} >{subscriptions[cardState.newsSite] ? `unsubscribe from ${cardState.newsSite}` : `subscribe to ${cardState.newsSite}`}</button>
+              </div>
+          </article>
+        </div>
   )
 }
 
