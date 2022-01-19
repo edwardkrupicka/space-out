@@ -21,15 +21,9 @@ for (const property in subscriptions) {
 
 let filtered = (site) => { return dataArr.filter(obj => obj.newsSite === site) }
 
-console.log(filtered('Spaceflight Now'))
-
-console.log('Spaceflight Now'.split(" ").join(""))
-
 const location = useLocation().pathname;
 const keys = Object.keys(subscriptions)
 const routeComponents = subscriptionsArr.map((element) => { return <Route exact path={`/${element.split(" ").join("")}`} key={element} element={ <Grid styleOverrideClass={'subscriptions'} data={filtered(element)} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />});
-
-console.log(routeComponents)
 
 	return (
 		<section className='subscription-container'>

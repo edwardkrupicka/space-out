@@ -5,7 +5,6 @@ const Favorites = ({ favorites, handleSubClick, handleFavClick, subscriptions })
 
 	let dataArr = []
   for (const property in favorites) {
-    console.log(favorites)
     for (const nestedProp in favorites[property]) {
       dataArr.push((favorites[property][nestedProp]))
     }
