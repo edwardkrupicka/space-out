@@ -1,23 +1,24 @@
-# space-out
+# [space-out](https://edwardkrupicka.github.io/space-out/)
+#### deployed link ^^^^
 ## Showcase Mod 3 Final Project
 
 ## Abstract
 space-out is an application that displays various space news related articles,blogs and ISS reports that a user can be linked to that articles website address, favorite it, and subscribe to the news site that published the article for a custom subcribtion feed and favorites page.
 
-#### Main Page
+## Main Page
 ![Screen Shot 2022-01-12 at 6 15 46 PM](https://user-images.githubusercontent.com/87044013/150140844-cd73027c-56ea-4a20-8245-d2b1e990769b.png)
 
 
-#### Favorites Page
+## Favorites Page
 ![Screen Shot 2022-01-12 at 6 17 22 PM](https://user-images.githubusercontent.com/87044013/150141399-35db14ef-db85-4a39-967b-e1d3eecf0d0f.png)
 
-#### Subscriptions Page
+## Subscriptions Page
 ![Screen Shot 2022-01-12 at 6 17 03 PM](https://user-images.githubusercontent.com/87044013/150141584-c793ed90-6b1b-4ff8-ae82-ed1f3b11500b.png)
 
-#### Card close up
+## Card close up
 ![Screen Shot 2022-01-12 at 6 16 09 PM](https://user-images.githubusercontent.com/87044013/150141209-e7235107-eb5e-487a-8e7c-1b8fea0f334d.png)
 
-#### Rubric
+## Rubric
 Project rubric can be found [here](https://frontend.turing.edu/projects/module-3/showcase.html)
 
 #### Contributors
