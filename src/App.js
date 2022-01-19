@@ -7,15 +7,20 @@ import Loading from './services/Loading/Loading';
 import Home from './views/Home/Home';
 import Favorites from './views/Favorites/Favorites';
 import Subscriptions from './views/Subscriptions/Subscriptions';
+import Error from './services/Error/Error';
 
 const App = () => {
   const [data, setData] = useState({ articles: {}, blogs: {}, reports: {} })
   const [favorites, setFavorites] = useState({ articles: {}, blogs: {}, reports: {} })
   const [subscriptions, setSubscriptions] = useState({})
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState([])
+
+  console.log(data.articles)
+
   
   useEffect(() => {
-    fetchAllData(setData, setLoading)
+    fetchAllData(setData, setLoading, setError)
   }, [])
 
   const handleFavClick = ( cardState ) => {
@@ -57,15 +62,15 @@ const App = () => {
   }
 
   return (
-    <div className="App">
+    <div className={error.length ? 'App error' : 'App'}>
       <Nav />
-        { loading ? <Loading /> : 
+      { error.length ? <Error error={error} /> : null}
+        { loading ? <Loading /> : null}
         <Routes>
           <Route path='/' element={ <Home data={data} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
           <Route path='/favorites' element={ <Favorites favorites={favorites} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
           <Route path='/subscriptions/*' element={ <Subscriptions data={data} subscriptions={subscriptions} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> }/>
         </Routes>
-        }
     </div>
   );
 };
