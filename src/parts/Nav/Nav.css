@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap");
+.nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  background-color: black;
+  width: 100%;
+}
+
+.space-out {
+  font-family: 'Sonsie One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: start;
+  color: lightgrey;
+  margin-left: 20px;
+}
+
+.space-out:focus {
+  color: red;
+}
+
+.header-link {
+  width: 74%;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: lightgrey;
+  text-decoration: none;
+  margin: 15px 10px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  height: 60%;
+}
+
+.nav-link:hover {
+  color: #ffa200;
+  border-bottom: 4px solid orange;
+}
+
+.nav-link.active {
+  color: #ffa200;
+  border-bottom: 2px solid orange;
+}
+/*# sourceMappingURL=Nav.css.map */

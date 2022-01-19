@@ -1,4 +1,5 @@
 import './Grid.scss';
+import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 
 const Grid = ({ data, handleSubClick, handleFavClick, styleOverrideClass, subscriptions }) => {
@@ -23,3 +24,11 @@ const Grid = ({ data, handleSubClick, handleFavClick, styleOverrideClass, subscr
 }
 
 export default Grid;
+
+Grid.propTypes = {
+  data: PropTypes.array,
+  styleOverrideClass: PropTypes.string,
+  handleSubClick: PropTypes.func,
+  handleFavClick: PropTypes.func,
+  subscriptions: PropTypes.object
+};
