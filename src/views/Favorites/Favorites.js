@@ -1,6 +1,5 @@
 import './Favorites.scss';
-import Grid from '../../components/Grid/Grid';
-import React, { useEffect, useState } from 'react';
+import Grid from '../../assets/components/Grid/Grid';
 
 const Favorites = ({ favorites, handleSubClick, handleFavClick, subscriptions }) => {
 

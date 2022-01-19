@@ -1,5 +1,5 @@
 import './Home.scss';
-import Grid from '../../components/Grid/Grid';
+import Grid from '../../assets/components/Grid/Grid';
 import React, { useEffect, useState } from 'react';
 
 const Home = ({ data, handleSubClick, handleFavClick, subscriptions }) => {

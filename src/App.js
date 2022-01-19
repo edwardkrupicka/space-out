@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { fetchAllData } from './services/api/api';
 import './App.scss';
 import Nav from './parts/Nav/Nav';
