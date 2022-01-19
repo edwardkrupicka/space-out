@@ -2,7 +2,7 @@ import './Favorites.scss';
 import Grid from '../../components/Grid/Grid';
 import React, { useEffect, useState } from 'react';
 
-const Favorites = ({ favorites, handleSubClick, handleFavClick }) => {
+const Favorites = ({ favorites, handleSubClick, handleFavClick, subscriptions }) => {
 
 	let dataArr = []
   for (const property in favorites) {
@@ -13,8 +13,9 @@ const Favorites = ({ favorites, handleSubClick, handleFavClick }) => {
   }
 
 	return (
-		<section className='favorites'>
-			<Grid styleOverrideClass={'favorites'} data={dataArr} handleFavClick={handleFavClick} handleSubClick={handleSubClick} />
+		<section className='favorites-container'>
+			<h1 className='favorites-header' >Favorites</h1>
+			<Grid styleOverrideClass={'favorites'} data={dataArr} handleFavClick={handleFavClick} handleSubClick={handleSubClick} subscriptions={subscriptions} />
 		</section>
 	)
 }

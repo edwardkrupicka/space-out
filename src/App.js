@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Outlet } from 'react-router-dom';
 import { fetchAllData } from './services/api/api';
 import './App.scss';
 import Nav from './parts/Nav/Nav';
@@ -59,12 +59,13 @@ const App = () => {
   return (
     <div className="App">
       <Nav />
-        { loading ? <Loading /> : null }
+        { loading ? <Loading /> : 
         <Routes>
-          <Route path='/' element={ <Home data={ data } handleSubClick={handleSubClick} handleFavClick={handleFavClick} /> } />
-          <Route path='/favorites' element={ <Favorites favorites={ favorites } handleSubClick={handleSubClick} handleFavClick={handleFavClick} /> } />
-          <Route path='/subscriptions' element={ <Subscriptions data={ data } subscriptions={ subscriptions } handleSubClick={handleSubClick} handleFavClick={handleFavClick} /> } />
+          <Route path='/' element={ <Home data={data} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
+          <Route path='/favorites' element={ <Favorites favorites={favorites} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
+          <Route path='/subscriptions/*' element={ <Subscriptions data={data} subscriptions={subscriptions} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> }/>
         </Routes>
+        }
     </div>
   );
 };
