@@ -16,7 +16,7 @@ const App = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState([])
 
-  console.log(data.articles)
+  console.log(data)
 
   
   useEffect(() => {
@@ -64,7 +64,7 @@ const App = () => {
   return (
     <div className={error.length ? 'App error' : 'App'}>
       <Nav />
-      { error.length ? <Error error={error} /> : null}
+      { error.length ? <Error error={error} data={data} /> : null}
         { loading ? <Loading /> : null}
         <Routes>
           <Route path='/' element={ <Home data={data} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />

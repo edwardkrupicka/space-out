@@ -1,7 +1,7 @@
 import './Error.scss'
 import error_icon from '../../assets/images/error_icon.svg';
 
-const Error = ({ error }) => {
+const Error = ({ error, data }) => {
 
 	const errors = error.map((err, index) => {
 		return (

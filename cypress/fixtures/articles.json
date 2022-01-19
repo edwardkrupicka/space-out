@@ -1,182 +1,142 @@
-{
-	"13628": {
-			"id": 13628,
-			"title": "NASA Invites Media to Launch of New Mega-Moon Rocket and Spacecraft",
-			"url": "http://www.nasa.gov/press-release/nasa-invites-media-to-launch-of-new-mega-moon-rocket-and-spacecraft",
-			"imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/ksc-20190628-ph_fwm01_0106_large_1.jpg?itok=Coc1dEfe",
-			"newsSite": "NASA",
-			"summary": "NASA Invites Media to Launch of New Mega-Moon Rocket and Spacecraft",
-			"publishedAt": "2022-01-18T18:23:00.000Z",
-			"updatedAt": "2022-01-18T20:15:16.936Z",
-			"featured": false,
-			"launches": [
-					{
-							"id": "65896761-b6ca-4df3-9699-e077a360c52a",
-							"provider": "Launch Library 2"
-					}
-			],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13629": {
-			"id": 13629,
-			"title": "La NASA invita a los medios al lanzamiento del nuevo mega-cohete y nave espacial lunares",
-			"url": "http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-del-nuevo-mega-cohete-y-nave-espacial",
-			"imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/ksc-20190628-ph_fwm01_0106_large_1.jpg?itok=Coc1dEfe",
-			"newsSite": "NASA",
-			"summary": "Ya está abierta la acreditación de medios de comunicación para las actividades de pre-lanzamiento y lanzamiento relacionadas con la misión Artemis I de la NASA, la primera misión desde Apolo de sistemas de exploración construidos para llevar tripulación a bordo que viajará alrededor de la Luna.",
-			"publishedAt": "2022-01-18T20:23:00.000Z",
-			"updatedAt": "2022-01-19T06:57:33.326Z",
-			"featured": false,
-			"launches": [
-					{
-							"id": "65896761-b6ca-4df3-9699-e077a360c52a",
-							"provider": "Launch Library 2"
-					}
-			],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13630": {
-			"id": 13630,
-			"title": "SpaceX stays busy with Starlink Group 4-6 launch",
-			"url": "https://www.nasaspaceflight.com/2022/01/spacex-starlink-group-4-6/",
-			"imageUrl": "https://www.nasaspaceflight.com/wp-content/uploads/2022/01/streak.jpg",
-			"newsSite": "NASA Spaceflight",
-			"summary": "At 9:02 PM EST on January 18 (02:02 UTC on January 19), SpaceX launched another batch of 49 Starlink satellites to orbit aboard a flight-proven Falcon 9 rocket from Launch Complex 39A at NASA’s Kennedy Space Center (KSC). This launch time was an approximately 2-hour delay from the original target of 7:04 PM EST (00:02 UTC), which was forfeited in favor of the latter launch time prior to beginning the countdown.",
-			"publishedAt": "2022-01-18T21:42:49.000Z",
-			"updatedAt": "2022-01-19T06:57:24.142Z",
-			"featured": false,
-			"launches": [
-					{
-							"id": "50ac28f2-024f-442f-837d-dab8107304ec",
-							"provider": "Launch Library 2"
-					}
-			],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13631": {
-			"id": 13631,
-			"title": "EarthDaily taps Loft Orbital to build and operate $150 million constellation",
-			"url": "https://spacenews.com/earthdaily-taps-loft-orbital-to-build-and-operate-150-million-constellation/",
-			"imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/OWS-building.jpeg",
-			"newsSite": "SpaceNews",
-			"summary": "EarthDaily Analytics (EDA) said Jan. 18 it has selected condosat operator Loft Orbital to build, launch and operate a fleet of 10 Earth-observation satellites on its behalf.",
-			"publishedAt": "2022-01-18T22:52:48.000Z",
-			"updatedAt": "2022-01-18T22:52:48.505Z",
-			"featured": false,
-			"launches": [],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13632": {
-			"id": 13632,
-			"title": "Raymond: Space Force in 2022 to focus on the design of a resilient architecture",
-			"url": "https://spacenews.com/raymond-space-force-in-2022-to-focus-on-the-design-of-a-resilient-architecture/",
-			"imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/Screen-Shot-2022-01-18-at-3.18.14-PM.png",
-			"newsSite": "SpaceNews",
-			"summary": "The U.S. Space Force will turn more attention in the coming year to the design of the military’s future space architecture, chief of space operations Gen. John “Jay” Raymond said Jan. 18.",
-			"publishedAt": "2022-01-18T22:52:48.000Z",
-			"updatedAt": "2022-01-18T22:52:48.507Z",
-			"featured": false,
-			"launches": [],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13633": {
-			"id": 13633,
-			"title": "SES absorbs SES Networks in streamlining effort",
-			"url": "https://spacenews.com/ses-absorbs-ses-networks-in-streamlining-effort/",
-			"imageUrl": "https://spacenews.com/wp-content/uploads/2021/08/O3bmPOWER_Satellite_High_Bay_1.png",
-			"newsSite": "SpaceNews",
-			"summary": "Satellite operator SES is absorbing its SES Networks business unit ahead of deploying its next-generation O3b mPOWER broadband constellation this year.",
-			"publishedAt": "2022-01-18T23:12:51.000Z",
-			"updatedAt": "2022-01-18T23:12:51.155Z",
-			"featured": false,
-			"launches": [],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13634": {
-			"id": 13634,
-			"title": "Federal budget stalemate having ‘ripple effects’ on national security space missions",
-			"url": "https://spacenews.com/federal-budget-stalemate-having-ripple-effects-on-national-security-space-missions/",
-			"imageUrl": "https://spacenews.com/wp-content/uploads/2020/09/50065947228_9b87ced57d_k.jpg",
-			"newsSite": "SpaceNews",
-			"summary": "If a CR continues, two national security space missions funded in 2022 would have to be pushed into 2023 or beyond.",
-			"publishedAt": "2022-01-18T23:42:56.000Z",
-			"updatedAt": "2022-01-18T23:42:57.040Z",
-			"featured": false,
-			"launches": [],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13640": {
-			"id": 13640,
-			"title": "SpaceX launches 2,000th Starlink satellite",
-			"url": "https://spaceflightnow.com/2022/01/19/spacex-launches-2000th-starlink-satellite/",
-			"imageUrl": "https://spaceflightnow.com/wp-content/uploads/2022/01/DSC_0337-2.jpg",
-			"newsSite": "Spaceflight Now",
-			"summary": "A package of 49 Starlink satellites that rode a Falcon 9 rocket into orbit Tuesday night from Florida included the 2,000th spacecraft to launch into SpaceX’s broadband internet network.",
-			"publishedAt": "2022-01-19T04:42:43.000Z",
-			"updatedAt": "2022-01-19T06:57:17.382Z",
-			"featured": false,
-			"launches": [
-					{
-							"id": "50ac28f2-024f-442f-837d-dab8107304ec",
-							"provider": "Launch Library 2"
-					}
-			],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13641": {
-			"id": 13641,
-			"title": "Satellogic raises $150 million from fund led by former treasury secretary",
-			"url": "https://spacenews.com/satellogic-raises-150-million-from-fund-led-by-former-treasury-secretary/",
-			"imageUrl": "https://spacenews.com/wp-content/uploads/2019/12/satellogic-cx-470x470.jpg",
-			"newsSite": "SpaceNews",
-			"summary": "A fund led by Steven Mnuchin, former treasury secretary, will invest $150 million into Earth imaging company Satellogic, helping close a delayed merger with a special purpose acquisition corporation (SPAC).",
-			"publishedAt": "2022-01-19T12:02:55.000Z",
-			"updatedAt": "2022-01-19T12:02:55.568Z",
-			"featured": false,
-			"launches": [],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	},
-	"13642": {
-			"id": 13642,
-			"title": "Cosmonauts begin Russian spacewalk to integrate new ISS module",
-			"url": "https://www.nasaspaceflight.com/2022/01/russian-eva-51/",
-			"imageUrl": "https://www.nasaspaceflight.com/wp-content/uploads/2022/01/iss066e096810_large.jpeg",
-			"newsSite": "NASA Spaceflight",
-			"summary": "Two Russian cosmonauts are conducting a spacewalk at the International Space Station (ISS) to fully configure and integrate the outpost’s newest module to support future operations. ",
-			"publishedAt": "2022-01-19T12:22:38.000Z",
-			"updatedAt": "2022-01-19T12:22:52.528Z",
-			"featured": false,
-			"launches": [],
-			"events": [],
-			"type": "articles",
-			"favorited": false,
-			"subscribed": false
-	}
-}
+[
+  {
+    "id": 13649,
+    "title": "NASA updates status of SpaceX’s next two astronaut launches",
+    "url": "https://www.teslarati.com/spacex-next-two-astronaut-launches-update/",
+    "imageUrl": "https://www.teslarati.com/wp-content/uploads/2021/11/Crew-3-Dragon-C210-ISS-arrival-webcast-111121-NASA-feature-1-c.jpg",
+    "newsSite": "Teslarati",
+    "summary": "NASA has updated the status of SpaceX’s next two crewed Falcon 9 launches – one fully private and the other for the...",
+    "publishedAt": "2022-01-19T21:14:30.000Z",
+    "updatedAt": "2022-01-19T21:14:54.948Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13647,
+    "title": "Space Force is creating its own culture but will be ‘tightly coupled’ to the Air Force",
+    "url": "https://spacenews.com/space-force-is-creating-its-own-culture-but-will-be-tightly-coupled-to-the-air-force/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/211018-F-JJ904-0166-e1642616642641.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "The Space Force is a separate U.S. military branch but will have to stay “tightly coupled” to the Air Force in order to be successful, Air Force Secretary Frank Kendall said Jan. 19.",
+    "publishedAt": "2022-01-19T18:33:04.000Z",
+    "updatedAt": "2022-01-19T18:33:05.029Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13646,
+    "title": "One Year into the Biden Administration, NASA Looks to Future",
+    "url": "http://www.nasa.gov/press-release/one-year-into-the-biden-administration-nasa-looks-to-future",
+    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/51718386733_19346e4180_k_0.jpg?itok=L-HkDxPk",
+    "newsSite": "NASA",
+    "summary": "Over the past year, NASA has made valuable contributions to Biden-Harris Administration’s goals – leading on the global stage, addressing the urgent issue of climate change, creating high paying jobs, and inspiring future generations.",
+    "publishedAt": "2022-01-19T17:43:00.000Z",
+    "updatedAt": "2022-01-19T17:43:51.356Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13645,
+    "title": "Space and national security: What to expect in 2022",
+    "url": "https://spacenews.com/space-and-national-security-what-to-expect-in-2022/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/Security-background.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "The Space Force stands on firmer political ground but is coming under pressure to deliver new technologies to counter threats from Russia and China. The Space Development Agency is counting down to the launch of its first operational satellites. And ULA is still waiting for Blue Origin to deliver engines for Vulcan’s maiden flight.",
+    "publishedAt": "2022-01-19T15:02:47.000Z",
+    "updatedAt": "2022-01-19T15:02:47.731Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13644,
+    "title": "Radian Aerospace raises seed round to fund work on spaceplane",
+    "url": "https://spacenews.com/radian-aerospace-raises-seed-round-to-fund-work-on-spaceplane/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/radianone.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "A startup has raised a seed round of funding to pursue development of what’s long been considered the holy grail of space transportation: a single-stage-to-orbit reusable spaceplane.",
+    "publishedAt": "2022-01-19T14:32:51.000Z",
+    "updatedAt": "2022-01-19T14:32:51.965Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13643,
+    "title": "Radian announces plans to build one of the holy grails of spaceflight",
+    "url": "https://arstechnica.com/science/2022/01/radian-announces-plans-to-build-one-of-the-holy-grails-of-spaceflight/",
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/01/radian-one.jpg",
+    "newsSite": "Arstechnica",
+    "summary": "\"We all understand how difficult this is.\"",
+    "publishedAt": "2022-01-19T14:00:46.000Z",
+    "updatedAt": "2022-01-19T14:12:53.279Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13642,
+    "title": "Cosmonauts complete Russian spacewalk to integrate Prichal node",
+    "url": "https://www.nasaspaceflight.com/2022/01/russian-eva-51/",
+    "imageUrl": "https://www.nasaspaceflight.com/wp-content/uploads/2022/01/iss066e096810_large.jpeg",
+    "newsSite": "NASA Spaceflight",
+    "summary": "Two Russian cosmonauts have conducted a spacewalk at the International Space Station (ISS) to fully configure and integrate the outpost’s newest module to support future operations. ",
+    "publishedAt": "2022-01-19T12:22:38.000Z",
+    "updatedAt": "2022-01-19T19:33:27.874Z",
+    "featured": false,
+    "launches": [],
+    "events": [
+      {
+        "id": 334,
+        "provider": "Launch Library 2"
+      }
+    ]
+  },
+  {
+    "id": 13641,
+    "title": "Satellogic raises $150 million from fund led by former treasury secretary",
+    "url": "https://spacenews.com/satellogic-raises-150-million-from-fund-led-by-former-treasury-secretary/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2019/12/satellogic-cx-470x470.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "A fund led by Steven Mnuchin, former treasury secretary, will invest $150 million into Earth imaging company Satellogic, helping close a delayed merger with a special purpose acquisition corporation (SPAC).",
+    "publishedAt": "2022-01-19T12:02:55.000Z",
+    "updatedAt": "2022-01-19T12:02:55.568Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 13640,
+    "title": "SpaceX launches 2,000th Starlink satellite",
+    "url": "https://spaceflightnow.com/2022/01/19/spacex-launches-2000th-starlink-satellite/",
+    "imageUrl": "https://spaceflightnow.com/wp-content/uploads/2022/01/DSC_0337-2.jpg",
+    "newsSite": "Spaceflight Now",
+    "summary": "A package of 49 Starlink satellites that rode a Falcon 9 rocket into orbit Tuesday night from Florida included the 2,000th spacecraft to launch into SpaceX’s broadband internet network.",
+    "publishedAt": "2022-01-19T04:42:43.000Z",
+    "updatedAt": "2022-01-19T06:57:17.382Z",
+    "featured": false,
+    "launches": [
+      {
+        "id": "50ac28f2-024f-442f-837d-dab8107304ec",
+        "provider": "Launch Library 2"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": 13634,
+    "title": "Federal budget stalemate having ‘ripple effects’ on national security space missions",
+    "url": "https://spacenews.com/federal-budget-stalemate-having-ripple-effects-on-national-security-space-missions/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2020/09/50065947228_9b87ced57d_k.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "If a CR continues, two national security space missions funded in 2022 would have to be pushed into 2023 or beyond.",
+    "publishedAt": "2022-01-18T23:42:56.000Z",
+    "updatedAt": "2022-01-18T23:42:57.040Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  }
+]

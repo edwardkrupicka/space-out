@@ -7,7 +7,7 @@ const Card = ({ element, styleOverrideClass, handleSubClick, handleFavClick, sub
   const [cardState, setCardState] = useState(element)
 
   return (
-    <div className='card' style={{ backgroundImage: `url(${element.imageUrl})` }} >
+    <div className={`card ${element.id}`} style={{ backgroundImage: `url(${element.imageUrl})` }} >
           <article className={`content ${styleOverrideClass}`} key={cardState.id} >
               <h2 className='newsSite' >{cardState.newsSite}</h2>
               <h2 className='title' >{cardState.title}</h2>
