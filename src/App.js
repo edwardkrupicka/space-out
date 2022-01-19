@@ -16,8 +16,6 @@ const App = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState([])
 
-  console.log(data)
-
   
   useEffect(() => {
     fetchAllData(setData, setLoading, setError)
