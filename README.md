@@ -1,5 +1,4 @@
 # [space-out](https://edwardkrupicka.github.io/space-out/)
-#### deployed link ^^^^
 ## Showcase Mod 3 Final Project
 
 ## Abstract
