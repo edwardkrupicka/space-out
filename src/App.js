@@ -61,6 +61,12 @@ const App = () => {
 
   return (
     <div className={error.length ? 'App error' : 'App'}>
+      <div className="bg">
+        <div className="space stars1"></div>
+        <div className="space stars2"></div>
+        <div className="space stars3"></div>
+      </div>
+      <section className="content">
       <Nav />
       { error.length ? <Error error={error} data={data} /> : null}
         { loading ? <Loading /> : null}
@@ -69,6 +75,7 @@ const App = () => {
           <Route path='/favorites' element={ <Favorites favorites={favorites} handleSubClick={handleSubClick} handleFavClick={handleFavClick} subscriptions={subscriptions}/> } />
           <Route path='/subscriptions/*' element={ <Subscriptions data={data} subscriptions={subscriptions} handleSubClick={handleSubClick} handleFavClick={handleFavClick} /> }/>
         </Routes>
+        </section>
     </div>
   );
 };
