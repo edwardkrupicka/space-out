@@ -1,8 +1,9 @@
 # [space-out](https://edwardkrupicka.github.io/space-out/)
+### [REST API used](https://spaceflightnewsapi.net/)
 ## Showcase Mod 3 Final Project
 
 ## Abstract
-space-out is an application that displays various space news related articles,blogs and ISS reports that a user can be linked to that articles website address, favorite it, and subscribe to the news site that published the article for a custom subcribtion feed and favorites page.
+space-out is an application that displays various space news related articles, blogs and ISS reports from a RESTful API that I chose. A user can be linked to full articles, favorite it, and subscribe to the news site that published the article for a custom subcribtion feed and favorites page.
 
 ## Main Page
 ![Screen Shot 2022-01-12 at 6 15 46 PM](https://user-images.githubusercontent.com/87044013/150140844-cd73027c-56ea-4a20-8245-d2b1e990769b.png)
